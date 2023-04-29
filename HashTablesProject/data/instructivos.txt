@@ -1,0 +1,40 @@
+Documetación del uso de la aplicación:
+
+Inicialmente se debe seleccionar uno de las dos funciones hash representadas por los JRadioButtons
+de la parte superior derecha.
+
+Posteriormente, en la parte superior izquierda, sobre la región negra existe una opción de menú llamada "File",
+estas opciones manejarán todo respecto a lo que al manejor de archivos refiere. Consta de tres módulos:
+
+- Cargar Archivo (Load File)
+- Salvar Archivo (Save File)
+- Cerrar Archivo (Close File)
+
+Cargar archivo: Al seleccionar esta opción deberá buscar y seleccionar un archivo de extensión .csv con datos
+de la forma ID;NOMBRE;APELLIDO;GENERO si el archivo cuenta con insuficientes datos no serán cargados,
+si cuenta con datos extras los posteriores al cuarto serán ignorados. Una vez cargado el archivo se guardarán
+dentro de la HashTable usando la función de hash seleccionada al momento de la selección del archivo.
+
+Salvar achivo: Esta función sobreescribirá el archivo que esté seleccionado en ese momento con los cambios
+que se hayan realizado dentro del programa, si usted sale sin seleccionar esta opción los datos no serán
+guardados.
+
+Cerrar archivo: Esta función cerrará inmediatamente el archivo reiniciando por completo la HashTable. Si
+al seleccionar esta opción no guardó el archivo los datos cambiados dentro de ejecución no se habrán guardado.
+
+------------------
+
+Una vez seleccionado el archivo de interés, puede agregar, actualizar, eliminar y consultar datos.
+
+El formulario que está alineado al botón "Insert/Insertar" serán los datos necesarios para agregar un
+registro a la HashTable.
+
+Por otro lado, los botones "Remove/Remover" y "Search/Buscar" utilizarán el mismo formulario para ejecutar
+sus funciones, así que tendrá que ser cuidadoso con lo que respecta a este campo.
+
+Recuerde que ninguna de las modificaciones realizadas dentro de este modulo no se verá guardado si no 
+utiliza el botón "Save File" del menú "File".
+
+------------------
+
+César Luygi Salcedo Espriella (Luigi Salcedo) - Estructuras de Datos 2023 - Universidad de Cartagena
